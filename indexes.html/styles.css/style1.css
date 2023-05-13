@@ -1,0 +1,324 @@
+
+/*............... 
+    Top Banner 
+.................*/
+.banner{
+    display: grid;
+    gap: 24px;
+    margin-left: 80px;
+    margin-right: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #161616;
+    width: 1121px;
+    height: 446px;
+}
+.banner:hover{
+    background-color: green;
+    border-radius: 20px;
+}
+
+.heading{
+    color: #FFFFFF;
+    width: 290px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.the-greatest{
+    color:#FFFFFF;
+    font-size: 36px;
+}
+.paragraph{
+    color: #FFFFFF;
+    width: 290px;
+    height: 65px;
+    margin-top: 20px;
+}   
+.top-banner{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+ 
+.button-top{
+    background-color: #DD0000;
+    width: 167px;
+    height: 45px;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.img-div{
+    width: 530px;
+    height: 445px;
+}
+.banner-pic img{
+    width: 490px;
+    height: 440px;
+    margin-right: 20px;
+}  
+/* ...................
+    ficture-container 
+......................*/
+.ficture-live{
+    background-color: #161616;
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+    margin-top: 22px;
+}
+.ficture{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 220px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 15px;  
+}
+#upcoming:hover{
+    background-color: #DD0000;
+}
+#blog{
+    color:#FFFFFF;
+    background-color: #DD0000;
+}
+/* ................
+    transfer-live 
+..................*/
+.transfer{
+    margin-top: 5px;
+    margin-left: 45px;
+}
+.top-container{
+     display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+.transfer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 320px;
+    margin-right: 70px;
+    margin-top: 25px;
+}
+
+.transfer-live{
+    width: 270px;
+    height: 265px;
+    margin-left: 10px;
+    margin-top: 23px;
+    padding: 4px 4px;
+}
+.transfer-live img{
+    width: 270px;
+}
+
+.fa-text{
+   display: flex;
+    gap: 40px;
+    
+}
+.img-text img{
+    width: 25px;
+    height: 24px;
+    padding: 4px 4px;
+    margin-top: 2px; 
+}
+/* .................
+        footer 
+......................*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #161616;
+}
+.footer-container {
+    width: 100%;
+    height: 360px;
+    margin-top: 26px;
+    padding: 15px 15px;
+}
+.goal-text li a{
+    display: flex;
+    justify-content: center;
+    color:#FFFFFF;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 2.3em;
+    padding-top: 1px;
+   
+}
+.hr{
+   
+border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80vw;
+    margin-top: 60px;
+    margin-left: 70px;
+    height: 0;
+
+}
+.hr:hover{
+    background-color: skyblue;
+}
+ .contact{
+     width: 890px;
+    height: 20px;
+    margin-left: 120px;
+    margin-right: 120px; 
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 30px;
+
+} 
+.footer-text {
+    margin: 30px 0;   
+}
+.footer-text ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footer-text li a{
+    color:#FFFFFF;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.footer-icon{
+    font-size: 1.0em;
+    display: flex;
+ justify-content: center;
+}
+.footer-icon a{
+    padding: 5px;
+    color:#FFFFFF;
+    margin: 5px;
+    border-radius: 50%;
+}
+.footer-icon a i{
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+
+
+/*.........................
+        media queries 
+...........................*/
+@media only screen and  (max-width: 688px){
+    .banner{
+        grid-template-columns: repeat(1, 1fr);
+        width: 688px;
+        height: 800px;
+        margin-left: 20px;
+    }
+    .paragraph{
+        width: 300px;
+    }
+ 
+    .top-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 50px;
+    }
+    .ficture-live{
+        background-color: #FFFFFF;
+    }
+    .transfer-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 60px;
+       
+    }
+    .hr{
+        width: 60vw;
+        margin-top: 40px;
+        margin-left: 60px;
+        height: 0;
+    }
+   .footer-text ul{
+     flex-direction: column;
+     font-size: 16px;
+   }
+   .footer-icon a i{
+   margin: 0 auto;
+   }
+   .footer-icon a{
+    margin-top: 90px;
+   }
+
+}
+@media only screen and (min-width: 689) and (max-width: 992){
+    .banner{
+        display: grid;
+        gap: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        border-radius: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #161616;
+        width: 700px;
+        height: 398px;
+    }
+
+    .div-heading{
+        border: 1px solid red;
+        color: #FFFFFF;
+        width: 290px;
+        height: 270px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .the-greatest{
+        color:#FFFFFF;
+        font-size: 26px;
+    }
+    .paragraph{
+        color: #FFFFFF;
+        width: 210px;
+        height: 45px;
+        margin-top: 70px;
+    }   
+    .top-banner{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .button{
+        width: 200px;
+        height: 60px;
+    } 
+    .button-top{
+        background-color: #DD0000;
+        width: 167px;
+        height: 45px;
+        margin-top: 10px;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+    .img-div{
+        border: 1px solid red;
+        width: 388px;
+        height: 460px;
+    }
+    .banner-pic img{
+        width: 330px;
+        height: 340px;
+        margin-right: 10px;
+    }
+    .ficture-live{
+        background-color: #FFFFFF;
+        display: flex;
+        width: 705px;
+        height: 75px;
+        
+    }
+    .transfer-live{
+        width: 357px;
+        height: 414px;
+    }
+
+} 
